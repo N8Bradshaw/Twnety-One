@@ -1,0 +1,5 @@
+# Project exclude paths
+/.gradle/
+/Build Game/task/build/
+/Build Game/task/build/classes/java/main/
+/Build Game/task/build/classes/java/test/

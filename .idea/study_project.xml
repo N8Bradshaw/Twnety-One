@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="16" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <EduCourse>
+          <option name="authors">
+            <list>
+              <StepikUserInfo>
+                <option name="firstName" value="Matthew" />
+                <option name="id" value="-1" />
+                <option name="lastName" value="Johnson" />
+              </StepikUserInfo>
+            </list>
+          </option>
+          <option name="compatible" value="true" />
+          <option name="courseMode" value="Study" />
+          <option name="createDate" value="0" />
+          <option name="customPresentableName" />
+          <option name="description" value="Build the Twenty-One project" />
+          <option name="environment" value="" />
+          <option name="id" value="0" />
+          <option name="index" value="-1" />
+          <option name="instructors">
+            <list />
+          </option>
+          <option name="language" value="JAVA" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Twnety-One" />
+          <option name="public" value="false" />
+          <option name="sectionIds">
+            <list />
+          </option>
+          <option name="type" value="pycharm11 Python" />
+          <option name="updateDate" value="0" />
+          <option name="items">
+            <list>
+              <FrameworkLesson>
+                <option name="currentTaskIndex" value="4" />
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Build Game" />
+                <option name="updateDate" value="0" />
+                <option name="unitId" value="0" />
+                <option name="items">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="Your first task is to just display a simple &quot;Welcome&quot; message.&#10;&#10;## Sample Output&#10;&lt;pre style=&quot;background-color: black; padding: 10px;border-radius: 5px; border: medium gray solid; color:white&quot;&gt;&#10;Welcome to Twenty-One. The game that is NOT Blackjack, but exactly like it!&#10;&lt;/pre&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  &lt;code&gt;System.out.println()&lt;/code&gt;&#10;&lt;/div&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Welcome Message" />
+                      <option name="record" value="1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="317" />
+                                          <option name="offset" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="423" />
+                                      <option name="offset" value="0" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                      <option name="possibleAnswer" value="import java.util.Random;&#10;        import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Welcome to Twnety-One. The game that is NOT Blackjack, but exactly like it!&quot;);&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;  @Test&#10;  public void testSolution() {&#10;    Assert.assertTrue(true);&#10;  }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="It's now time to deal the first round of &quot;cards&quot;. In Twenty-One, the player gets two&#10;cards from the deck face up (their value is showing) and the dealer has one card facing up&#10;while the other is face down (hidden).  &#10;&#10;* Use the `dealCard()` method to get a random card&#10;* Print the value of the two cards the player got&#10;* Print the value of the dealer's card that is not hidden.&#10;* Show the player's total&#10;&#10;## Sample Output&#10;&lt;pre style=&quot;background-color: black; padding: 10px;border-radius: 5px; border: medium gray solid; color:white&quot;&gt;&#10;Welcome to Twenty-One. The game that is NOT Blackjack, but exactly like it!&#10;&#10;You were dealt a 7 and a 11.&#10;Your total is 18&#10;&#10;The dealer has a 10 and a hidden card.&#10;The dealer's total is also hidden&#10;&lt;/pre&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;Each &quot;card&quot; is simply an &lt;code&gt;int&lt;/code&gt;. Every time you use &lt;code&gt;dealCard()&lt;/code&gt;&#10;you will get a random number from 2 through 11. &#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You need some way to keep track of the player's first card, second card, and total. &#10;  You will also need to keep track of the dealer's first card, second card, and total.&#10;  How do we &quot;save&quot; values so we can use them later?&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Remember the dealer's second card and total are hidden. We still need to give the dealer&#10;  two cards and we also need to keep track of the dealer's total, but we are not going to&#10;  &lt;em&gt;show&lt;/em&gt; (hint: print) them.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  If you're &lt;em&gt;still&lt;/em&gt; stuck, here is my last and final hint:&#10;  &lt;ul&gt;&#10;  &lt;li&gt;You need to create variables that will store each card and the totals&lt;/li&gt;&#10;  &lt;li&gt;You need to assign &lt;code&gt;dealCard()&lt;/code&gt; to each of the card variables&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;  &lt;h3&gt;Example Code&lt;/h3&gt;&#10;&lt;code&gt;int playerCard1 = dealCard();&lt;/code&gt;&lt;br&gt;&#10;&lt;code&gt;int playerCard2 = dealCard();&lt;/code&gt;&lt;br&gt;&#10;&lt;code&gt;int playerTotal = playerCard1 + playerCard2;&lt;/code&gt;&#10;&lt;/div&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="2" />
+                      <option name="name" value="Deal Cards" />
+                      <option name="record" value="2" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="317" />
+                                          <option name="offset" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="true" />
+                                      <option name="length" value="1120" />
+                                      <option name="offset" value="0" />
+                                      <option name="placeholderDependency">
+                                        <AnswerPlaceholderDependency>
+                                          <option name="fileName" value="src/Task.java" />
+                                          <option name="lessonName" value="Build Game" />
+                                          <option name="placeholderIndex" value="0" />
+                                          <option name="sectionName" />
+                                          <option name="taskName" value="Welcome Message" />
+                                          <option name="visible" value="false" />
+                                        </AnswerPlaceholderDependency>
+                                      </option>
+                                      <option name="placeholderText" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                      <option name="possibleAnswer" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;&#10;    //***** DO NOT MODIFY THIS METHOD ******&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" value="import java.sql.SQLOutput;&#10;import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Welcome to Twnety-One. The game that is NOT Blackjack, but exactly like it!&quot;);&#10;        //player cards dealt&#10;        int playerFirstCard = dealCard();&#10;        int playerSecondCard = dealCard();&#10;        int playerTotal = (playerFirstCard + playerSecondCard);&#10;        System.out.println(&quot;You were dealt a &quot; + playerFirstCard + &quot; and a &quot; + playerSecondCard + &quot;.&quot;);&#10;        System.out.println(&quot;Your total is &quot; + playerTotal);&#10;        //dealer cards dealt&#10;        int dealerFirstCard = dealCard();&#10;        int dealerSecondCard = dealCard();&#10;        int dealerTotal = (dealerFirstCard + dealerSecondCard);&#10;        System.out.println(&quot;The dealer has a  &quot; + dealerFirstCard + &quot; and a hidden card..&quot;);&#10;        System.out.println(&quot;Your total is also hidden&quot;);&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;  @Test&#10;  public void testSolution() {&#10;    // put your test here&#10;    Assert.assertTrue(true);&#10;  }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="Now it's time to write the player's turn logic:&#10;&#10;* Ask the player if they want to &quot;hit&quot; or &quot;stand&quot;&#10;   - If they want to &quot;hit&quot;, they need to get dealt another card&#10;   - The new card needs to be added to the player's total&#10;* If they &quot;stand&quot; then their turn is over and it will become the dealer's turn&#10;(_we will write the logic for the dealer's turn in the next step_)&#10;* You need to check `if` the player's total is not over 21. &#10;   - If it's more than 21 then the player &quot;busted&quot; and loses. Game over.&#10;* You will continue to deal cards to the player `while` they want to &quot;hit&quot; (*or they &quot;bust&quot;*)&#10;&#10;## Sample Output&#10;&#10;&lt;pre style=&quot;background-color: black; padding: 10px;border-radius: 5px; border: medium gray solid; color:white&quot;&gt;&#10;...&#10;&#10;Do you want to &quot;hit&quot; or &quot;stand&quot;&#10;hit&#10;You were dealt a 2.&#10;Your total is 20.&#10;Do you want to &quot;hit&quot; or &quot;stand&quot;&#10;stand&#10;&lt;/pre&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You will be asking the user if they want to &quot;hit&quot; or &quot;stand&quot;. Meaning they should type the word &quot;hit&quot; or &quot;stand&quot;. You need to check if they typed &quot;hit&quot; or &quot;stand&quot; and do the right thing depending on what they typed.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  To check if the user typed in &quot;hit&quot;, you are comparing two &lt;code&gt;Strings&lt;/code&gt;. Make sure you are correctly checking to see if the two &lt;code&gt;Strings&lt;/code&gt; are equal. (&lt;strong&gt;HINT: If you are not sure, you should &lt;a href=&quot;https://www.google.com/search?client=safari&amp;rls=en&amp;q=Java+check+string+equality&amp;ie=UTF-8&amp;oe=UTF-8&quot;&gt;look it up&lt;/a&gt;&lt;/strong&gt;)&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You will need to continue to deal cards to the player while they want to &quot;hit&quot;. This will &lt;strong&gt;require&lt;/strong&gt; you to use a loop, where the loop will continue to run &lt;code&gt;while&lt;/code&gt; the players response is &quot;hit.&quot;&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You need to check if the players total is greater than 21 every time they get a new card. If their total is 22 or greater, then they &quot;busted&quot; and the game should end with the player losing.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You may need to use an &lt;code&gt;if&lt;/code&gt; statement inside of a &lt;code&gt;while&lt;/code&gt; loop.&#10;&lt;/div&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Player's Turn" />
+                      <option name="record" value="3" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="317" />
+                                          <option name="offset" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="true" />
+                                      <option name="length" value="1775" />
+                                      <option name="offset" value="0" />
+                                      <option name="placeholderDependency">
+                                        <AnswerPlaceholderDependency>
+                                          <option name="fileName" value="src/Task.java" />
+                                          <option name="lessonName" value="Build Game" />
+                                          <option name="placeholderIndex" value="0" />
+                                          <option name="sectionName" />
+                                          <option name="taskName" value="Deal Cards" />
+                                          <option name="visible" value="false" />
+                                        </AnswerPlaceholderDependency>
+                                      </option>
+                                      <option name="placeholderText" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                      <option name="possibleAnswer" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" value="import java.sql.SQLOutput;&#10;import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;        System.out.println(&quot;Welcome to Twnety-One. The game that is NOT Blackjack, but exactly like it!&quot;);&#10;        //player cards dealt&#10;        int playerFirstCard = dealCard();&#10;        int playerSecondCard = dealCard();&#10;        int playerTotal = (playerFirstCard + playerSecondCard);&#10;        System.out.println(&quot;You were dealt a &quot; + playerFirstCard + &quot; and a &quot; + playerSecondCard + &quot;.&quot;);&#10;        System.out.println(&quot;Your total is &quot; + playerTotal);&#10;        //dealer cards dealt&#10;        int dealerFirstCard = dealCard();&#10;        int dealerSecondCard = dealCard();&#10;        int dealerTotal = (dealerFirstCard + dealerSecondCard);&#10;        System.out.println(&quot;The dealer has a  &quot; + dealerFirstCard + &quot; and a hidden card..&quot;);&#10;        System.out.println(&quot;The dealer's total is also hidden&quot;);&#10;        System.out.println(&quot;Would you like to \&quot;hit\&quot; or \&quot;stand\&quot;&quot;);&#10;        String hitOrMiss = scanner.nextLine();&#10;        while (hitOrMiss.equals(&quot;hit&quot;)) {&#10;            int playerAddCard = dealCard();&#10;            playerTotal = (playerTotal + playerAddCard);&#10;            if (playerTotal &gt; 21) {&#10;                System.out.println(&quot;Sorry mate, you busted at &quot; + playerTotal + &quot; so you lost immediately.&quot;);&#10;                System.exit(0);&#10;            } else {&#10;                System.out.println(&quot;Your total is &quot; + playerTotal);&#10;                hitOrMiss = scanner.next();&#10;            }&#10;        }&#10;&#10;    }&#10;    static int dealCard () {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;  @Test&#10;  public void testSolution() {&#10;    // put your test here&#10;    Assert.assertTrue(true);&#10;  }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="Let's finish the main functionality of the game by writing the dealer's turn's logic. &#10;* When it's the dealer's turn we will need to display the dealer's second card, which was hidden when the game began. &#10;   - You will also need to display the dealer's total.&#10;* If the dealer has 21, then they automatically win and the player loses.&#10;&#10;## Dealer's Rules&#10;Unlike the player who can choose when to &quot;hit&quot; and when to &quot;stand,&quot; the dealer has to follow a strict set of rules:&#10;* If the dealer has 16 or less, they *must* &quot;hit&quot;&#10;* If the dealer has 17 or more they *must* &quot;stand&quot;&#10;* Just like the player, if they go over 21 then they &quot;bust.&quot; &#10;    - If this happens the game is over. The player wins and the dealer loses.&#10;* If the dealer's total is tied with the player's total the dealer wins.&#10;    - i.e. Both the dealer and the player have 19; in this case the dealer wins.&#10;&#10;## Sample Output&#10;&lt;pre style=&quot;background-color: black; padding: 10px;border-radius: 5px; border: medium gray solid; color:white&quot;&gt;&#10;...&#10;&#10;Ok. It's now the dealer's turn.&#10;The dealer has flipped over the hidden card.&#10;The hidden card is a 5.&#10;The dealer's total is 15.&#10;The dealer is dealt a 4.&#10;The dealer's total is 19.&#10;&#10;You win!&#10;&lt;/pre&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  With the dealer we are not checking to see if they typed in &quot;hit&quot; or &quot;stand,&quot; but we will continue to deal cards to the dealer if their total is 16 or less. Once their total is 17 or more then they can no longer have cards dealt to them.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Just like with the player, you must use a loop. You will continue to deal a card to the dealer &lt;code&gt;while&lt;/code&gt; the dealer's total is 16 or less.&#10;&lt;/div&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Just like with player, you will need to check &lt;code&gt;if&lt;/code&gt; the dealer's total is over 21 inside of the &lt;code&gt;while&lt;/code&gt; loop.&#10;&lt;/div&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="4" />
+                      <option name="name" value="Dealer's Turn" />
+                      <option name="record" value="4" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="317" />
+                                          <option name="offset" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="true" />
+                                      <option name="length" value="2790" />
+                                      <option name="offset" value="0" />
+                                      <option name="placeholderDependency">
+                                        <AnswerPlaceholderDependency>
+                                          <option name="fileName" value="src/Task.java" />
+                                          <option name="lessonName" value="Build Game" />
+                                          <option name="placeholderIndex" value="0" />
+                                          <option name="sectionName" />
+                                          <option name="taskName" value="Player's Turn" />
+                                          <option name="visible" value="false" />
+                                        </AnswerPlaceholderDependency>
+                                      </option>
+                                      <option name="placeholderText" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                      <option name="possibleAnswer" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" value="import java.sql.SQLOutput;&#10;import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;        System.out.println(&quot;Welcome to Twnety-One. The game that is NOT Blackjack, but exactly like it!&quot;);&#10;        //player cards dealt&#10;        int playerFirstCard = dealCard();&#10;        int playerSecondCard = dealCard();&#10;        int playerTotal = (playerFirstCard + playerSecondCard);&#10;        System.out.println(&quot;You were dealt a &quot; + playerFirstCard + &quot; and a &quot; + playerSecondCard + &quot;.&quot;);&#10;        System.out.println(&quot;Your total is &quot; + playerTotal);&#10;        //dealer cards dealt&#10;        int dealerFirstCard = dealCard();&#10;        int dealerSecondCard = dealCard();&#10;        int dealerTotal = (dealerFirstCard + dealerSecondCard);&#10;        System.out.println(&quot;The dealer has a  &quot; + dealerFirstCard + &quot; and a hidden card..&quot;);&#10;        System.out.println(&quot;The dealer's total is also hidden&quot;);&#10;        System.out.println(&quot;Would you like to \&quot;hit\&quot; or \&quot;stand\&quot;&quot;);&#10;        String hitOrMiss = scanner.nextLine();&#10;        //player getting more cards&#10;        while (hitOrMiss.equals(&quot;hit&quot;)) {&#10;            int playerAddCard = dealCard();&#10;            playerTotal = (playerTotal + playerAddCard);&#10;            if (playerTotal &gt; 21) {&#10;                System.out.println(&quot;Sorry mate, you busted at &quot; + playerTotal + &quot; so you lost immediately.&quot;);&#10;                System.exit(0);&#10;            } else {&#10;                System.out.println(&quot;Your total is &quot; + playerTotal);&#10;                hitOrMiss = scanner.next();&#10;            }&#10;        }&#10;        System.out.println(&quot;Ok now it's the dealers turn.\nThe dealer has flipped over the hidden card.&quot;);&#10;        System.out.println(&quot;The hidden card is &quot; + dealerSecondCard + &quot;.&quot;);&#10;        System.out.println(&quot;The dealer's total is &quot; + dealerTotal + &quot;.&quot;);&#10;        while (dealerTotal &lt; 17) {&#10;            int dealerAddCard = dealCard();&#10;            System.out.println(&quot;The dealer is dealt a &quot; + dealerAddCard + &quot;.&quot;);&#10;            dealerTotal = (dealerTotal + dealerAddCard);&#10;            System.out.println(&quot;The dealer's total is &quot; + dealerTotal + &quot;.&quot;);&#10;        }&#10;            if (dealerTotal &gt; 21){&#10;                System.out.println(&quot;The dealer busted at &quot; + dealerTotal +&quot; so you win automatically.&quot;);&#10;            }else if (dealerTotal &gt;= playerTotal){&#10;                System.out.println(&quot;The dealer wins! I knew you couldn't do it.&quot;);&#10;            }else{&#10;                System.out.println(&quot;You win! Good job... I guess. To be honest I didn't think you would win.&quot;);&#10;            }&#10;    }&#10;    static int dealCard () {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;  @Test&#10;  public void testSolution() {&#10;    // put your test here&#10;    Assert.assertTrue(true);&#10;  }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="At this point, the basics of our game should be working. Now let's enhance it with a few things. Some of these you may have done, but if you haven't please add these to the game:&#10;* We need to make sure the user types in only &quot;hit&quot; or &quot;stay&quot;. If they type in *anything* else, we should tell the user and allow them to try again.&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  &lt;code&gt;while&lt;/code&gt; the user's response doesn't equal &quot;hit&quot; or &quot;stand&quot;, then you should print a message to the user that states that entered an invalid response and they need to try again.&#10;  &#10;  &lt;h2&gt;Sample Output &lt;/h2&gt;&#10;  &lt;pre style=&quot;background-color: black; padding: 10px;border-radius: 5px; border: medium gray solid; color:white&quot;&gt;&#10;...&#10;Would you like to &quot;hit&quot; or &quot;stand&quot;&#10;stas&#10;You did not enter a valid response. Please try again.&#10;h&#10;You did not enter a valid response. Please try again.&#10;&lt;/pre&gt;&#10;&lt;/div&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  We haven't talked about how to use boolean operators AND and OR. Although it would be &lt;em&gt;easier&lt;/em&gt; to do with AND or OR, this &lt;em&gt;can&lt;/em&gt; be solved without it.&#10;&lt;/div&gt;&#10;&#10;* We should also make it so it doesn't matter if they say &quot;HIT&quot;, &quot;Hit&quot;, or &quot;hit&quot; (it should ignoring capital and lowercase letters)&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Use the string method &lt;code&gt;equalsIgnoreCase()&lt;/code&gt;.&#10;  &lt;p&gt;i.e.&lt;/p&gt;&#10;  &#10;&lt;pre&gt;&lt;code&gt;&#10;String userResponse = scanner.nextLine();&#10;if (userResponse.equalsIgnoreCase(&quot;hit&quot;) {&#10;   ...&#10;}&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;/div&gt;&#10;&#10;* Let's allow the player to play again until they enter some kind of response that says they want to stop. &#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You will need to use a &lt;code&gt;while&lt;/code&gt; loop to keep playing while they say &quot;yes&quot; to keep playing. What part of the code do we want to wrap out while loop around?&#10;&lt;/div&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="0" />
+                      <option name="index" value="5" />
+                      <option name="name" value="Enhancements" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="317" />
+                                          <option name="offset" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="true" />
+                                      <option name="length" value="2790" />
+                                      <option name="offset" value="0" />
+                                      <option name="placeholderDependency">
+                                        <AnswerPlaceholderDependency>
+                                          <option name="fileName" value="src/Task.java" />
+                                          <option name="lessonName" value="Build Game" />
+                                          <option name="placeholderIndex" value="0" />
+                                          <option name="sectionName" />
+                                          <option name="taskName" value="Dealer's Turn" />
+                                          <option name="visible" value="false" />
+                                        </AnswerPlaceholderDependency>
+                                      </option>
+                                      <option name="placeholderText" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                      <option name="possibleAnswer" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.java" />
+                                <option name="text" value="import java.util.Random;&#10;import java.util.Scanner;&#10;public class Task {&#10;    public static void main(String[] args) {&#10;&#10;    }&#10;    static int dealCard() {&#10;        final int MIN = 2;&#10;        final int MAX = 11;&#10;        Random randNumGenerator = new Random();&#10;        return randNumGenerator.nextInt(MAX - 1) + MIN;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.java" />
+                                <option name="text" value="import org.junit.Assert;&#10;import org.junit.Test;&#10;&#10;public class Tests {&#10;  @Test&#10;  public void testSolution() {&#10;    // put your test here&#10;    Assert.assertTrue(true);&#10;  }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                  </list>
+                </option>
+              </FrameworkLesson>
+            </list>
+          </option>
+        </EduCourse>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
